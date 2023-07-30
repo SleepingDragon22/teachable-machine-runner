@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Teachable Machine Helper</title>
+	<link rel="stylesheet" href="static/styles/main.css">
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.4.0/dist/speech-commands.min.js"></script>
+	<script src="static/scripts/jszip.min.js"></script>
+	<script src="static/scripts/FileSaver.min.js"></script>
+</head>
+
+<body>
+	<h1>Teachable Machine Helper</h1>
+	<input type="text" id="modelURL" placeholder="Model URL">
+	<button id="enableIdent"> Start Identifying </button>
+	<button id="disableIdent"> Stop Identifying </button>
+	<button id="connect"> Connect to Micro:Bit B </button>
+	<button id="disconnect"> Disconnect </button>
+	<div id="live-status"></div>
+	<div id="connect-status"> Disconnected </div>
+	<div id="label-container"></div>
+	<!-- <div>Teachable Machine Audio Model</div>
+<button type="button" onclick="init()">Start</button>
+ -->
+	
+	
+</body>
+<script src="static/scripts/main.js"></script>
+
+</html>
